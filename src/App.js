@@ -5,15 +5,22 @@ import Clock from './Components.js/Clock';
 
 
 
-function App() {
 
+function App() {
+  const today_Date=new Date().toLocaleDateString();
 
   return (
     <>
+    < Navbar today_Date={ today_Date}/>
+    
+    
+
+
+
     <div className='App'>
-    < Navbar/>
     <Clock/>
     </div>
+    
   
 
     
