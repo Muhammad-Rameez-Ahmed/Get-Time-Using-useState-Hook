@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.text{
+  color: tomato;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+}
+.button{
+background-color: white;
+padding: 10px;
+font-size: large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-radius: 10%;
+border-color: tomato;
+}
